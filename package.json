@@ -1,0 +1,24 @@
+{
+  "name": "@mex-bha/ts-library",
+  "version": "1.0.0",
+  "description": "A test Library",
+  "main": "index.js",
+  "scripts": {
+    "compile" : "rm -rf dist/lib && tsc  && tsc --build tsconfig.es5.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpv55mx1/my-ts-library"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/mpv55mx1/my-ts-library/issues",
+    "email": "mpv55.mx1@gmail.com"
+  },
+  "homepage": "https://github.com/mpv55mx1/my-ts-library#readme",
+  "author": "Mahendra P. Verma",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
